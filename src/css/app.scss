@@ -1,0 +1,200 @@
+// app global css in SCSS form
+@import 'iconfont.css';
+
+/*-------------icon-----------------*/
+.my-app-icon {
+  font-family: 'My App Icon';
+  font-weight: 600;
+}
+
+:root{
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 62.5%;
+}
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.text-primary-2{
+  color: #F95860;
+}
+.my-bold-show{font-weight: bold;}
+// -------公用margin-------
+.cus-ma-left{
+  margin-left: .8rem;
+}
+.cus-ma-right{
+  margin-right: .8rem;
+}
+//--------------------------公用flex------------------------
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.flex-nowrap{
+  flex-wrap: nowrap;
+}
+.flex-space-between{
+  justify-content: space-between;
+}
+.flex-space-around{
+  justify-content: space-around;
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+.flex-align-center{
+  align-items: center;
+}
+.flex-align-start{
+  align-items: flex-start;
+}
+.flex-align-end{
+  align-items: flex-end;
+}
+.flex-align-baseline{
+  align-items: baseline;
+}
+.flex-just-start{
+  justify-content: flex-start;
+}
+.flex-just-center{
+  justify-content: center;
+}
+.flex-just-end{
+  justify-content: flex-end;
+}
+//--------------------------公用flex------------------------
+.my-bottom-border{
+  border-bottom: 1px solid #f3f3f3;
+}
+//----------------灰背景-------------------
+.cus-bg-grey{
+  background: #f3f3f3;
+}
+//--------------------------私有------------------------
+.cus-search-input{ // 首页搜索框样式赋值
+  background: rgba(255,255,255,0.3);
+  border-radius: .5rem;
+  padding-left: .8rem;
+  color: white;
+}
+//--------------------------自定义头部------------------------
+.cus-header{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.cus-header-l{
+  flex: 1;
+  text-align: left;
+}
+.cus-header-m{
+  flex: 3;
+  font-size: 1.8rem;
+}
+.cus-header-r{
+  flex: 1;
+  text-align: right;
+}
+.cus-no-wrap{
+  white-space: nowrap;
+}
+// ------底部菜单图标大小控制----
+.indexFooter .q-tab__icon{
+  width: 2.8rem;
+  height: 2.8rem;
+  font-size: 2.8rem;
+}
+//-----------------------抢购按钮------------------
+.cus-buy-btn{
+  background: #F95860;
+  color: white;
+  font-weight: bold;
+}
+// -----------按钮公用
+.back-btn{
+}
+.cus-btn-grey{
+  background: #EDEDED;
+  color: #666666;
+  border: 1px solid #666666;
+}
+.cus-btn-light-grey{
+  background:#D9D9D9;
+  color: #ffffff;
+}
+.cus-btn-primary{
+  background: #F95860;
+  color: #ffffff;
+  border: 1px solid #C52A34;
+}
+.cus-btn-primary-nb{
+  background: #F95860;
+  color: #ffffff;
+}
+.q-btn__content div{
+  white-space: nowrap;
+}
+.cus-use-btn .q-btn__wrapper, .cus-pd-sm-btn .q-btn__wrapper{
+  padding: 4px;
+}
+.cus-use-btn .q-btn__content>div{font-size: 1.6rem;}
+// --------------订单列表页---------------
+.order-list-page{
+  width: 100vw;
+}
+//--------------支付图标上色----------
+.wx-pay i{
+  color: #24DB5A;
+}
+.ali-pay i{
+  color: #06B4FD;
+}
+// ---------贝中心tab调整-----------
+.dc-tab .q-tab-panel{
+  padding: 0;
+}
+.q-tab-panels{
+  background: transparent;
+}
+// -------------------订单详情-----------
+.det-name .q-btn__wrapper{padding: 0;}
+// -------首页条件栏控制-----
+.my-active .q-tab__label{font-weight: bold;font-size: larger;}
+// ----- 底线 ---
+.list-bottom-line-group{
+  margin: .8rem auto 0 auto;
+}
+.list-bottom-line{
+  width: 20%;
+  border: 1px solid #5B5B5B;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.list-bottom-word{
+  color: #5B5B5B;
+}
+// --------常用字体大小-------
+.cus-font-12{font-size: 1.2rem;}
+.cus-font-14{font-size: 1.4rem;}
+// ---------bottomsheet-orderSet页调整
+.my-bt-sheet{text-align: center;font-size: 2.1rem;font-weight: bold;}
+.my-bt-sheet .q-item__section--avatar{
+  display: none;
+}
+.my-bt-sheet-nouse{color: #999999}
+.my-bt-sheet + .my-bt-sheet {
+  border-top: 2px dotted #999999;
+}

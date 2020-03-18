@@ -1,0 +1,45 @@
+{
+  "name": "org.mteb.cl",
+  "displayName": "知了贝客户端",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cordova-android": "^8.1.0",
+    "cordova-plugin-appavailability": "0.4.2",
+    "cordova-plugin-badge": "^0.8.8",
+    "cordova-plugin-device": "^2.0.3",
+    "cordova-plugin-geolocation": "^4.0.2",
+    "cordova-plugin-local-notification-fixed": "^0.10.6",
+    "cordova-plugin-statusbar": "^2.4.3",
+    "cordova-plugin-wechat": "^2.9.0"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-wechat": {
+        "WECHATAPPID": "wx99b7ebadebc4b0a9"
+      },
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-geolocation": {},
+      "cordova-plugin-appavailability": {},
+      "cordova-plugin-local-notification-fixed": {
+        "ANDROID_SUPPORT_V4_VERSION": "26.+"
+      }
+    },
+    "platforms": [
+      "android"
+    ]
+  },
+  "devDependencies": {
+    "cordova-plugin-whitelist": "^1.3.4"
+  }
+}
