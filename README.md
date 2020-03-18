@@ -4,12 +4,9 @@
 
 ##项目截图
 
-![Image text](https://github.com/yueqjGithub/quasar-BD-app/blob/master/src/statics/img/1.png)
-![Image text](https://github.com/yueqjGithub/quasar-BD-app/blob/master/src/statics/img/2.png)
-![Image text](https://github.com/yueqjGithub/quasar-BD-app/blob/master/src/statics/img/3.png)
-![Image text](https://github.com/yueqjGithub/quasar-BD-app/blob/master/src/statics/img/4.png)
-![Image text](https://github.com/yueqjGithub/quasar-BD-app/blob/master/src/statics/img/5.png)
-![Image text](https://github.com/yueqjGithub/quasar-BD-app/blob/master/src/statics/img/14.png)
-![Image text](https://github.com/yueqjGithub/quasar-BD-app/blob/master/src/statics/img/11.png)
-![Image text](https://github.com/yueqjGithub/quasar-BD-app/blob/master/src/statics/img/12.png)
-![Image text](https://github.com/yueqjGithub/quasar-BD-app/blob/master/src/statics/img/13.png)
+![Image text](https://github.com/yueqjGithub/clientApp/blob/master/src/statics/PRO-Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200318161908.png)
+![Image text](https://github.com/yueqjGithub/clientApp/blob/master/src/statics/PRO-Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200318161932.png)
+![Image text](https://github.com/yueqjGithub/clientApp/blob/master/src/statics/PRO-Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200318161935.png)
+![Image text](https://github.com/yueqjGithub/clientApp/blob/master/src/statics/PRO-Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200318161939.png)
+![Image text](https://github.com/yueqjGithub/clientApp/blob/master/src/statics/PRO-Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200318161943.png)
+![Image text](https://github.com/yueqjGithub/clientApp/blob/master/src/statics/PRO-Images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200318161946.png)
